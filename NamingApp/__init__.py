@@ -19,3 +19,7 @@ app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 #os.environ['DATABASE_URL']
 db = SQLAlchemy(app)
 Migrate(app,db)
+
+def getApp():
+    return app
+
