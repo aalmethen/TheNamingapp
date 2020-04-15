@@ -1,1 +1,1 @@
-web: gunicorn wsgi:Namingapp
+web: gunicorn wsgi:NamingApp
