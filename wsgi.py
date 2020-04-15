@@ -1,3 +1,3 @@
-from app import getApp
+from Namingapp.__init__ import getApp
  
 app = getApp()
